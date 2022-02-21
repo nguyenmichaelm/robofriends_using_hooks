@@ -1,3 +1,4 @@
+//used to check loading errors
 import React, { Component } from 'react';
 
 class ErrorBoundry extends Component {
@@ -8,6 +9,8 @@ class ErrorBoundry extends Component {
     };
   }
 
+  //method given in by Component in versions after 16
+  //error and info are necessary params
   componentDidCatch(error, info) { 
     this.setState({hasError: true})
   }

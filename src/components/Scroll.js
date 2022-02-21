@@ -1,3 +1,5 @@
+//wrap container
+//demostrates props attribute children
 import React from 'react';
 
 const Scroll = (props) => {

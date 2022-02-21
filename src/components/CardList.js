@@ -1,3 +1,4 @@
+//component to produce multiple Card Components in an array
 import React from 'react';
 import Card from './Card';
 

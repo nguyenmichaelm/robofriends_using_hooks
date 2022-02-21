@@ -1,3 +1,4 @@
+//component to create card layout and get images from an api
 import React from 'react';
 
 const Card = ({ name, email, id }) => {
