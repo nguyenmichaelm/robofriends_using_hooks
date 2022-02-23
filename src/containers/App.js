@@ -7,13 +7,6 @@ import SearchBox from '../components/SearchBox';
 import './App.css';
 
 function App() {
-  // constructor() {
-  //   super()
-  //   this.state = {
-  //     robots: [],
-  //     searchField: "",
-  //   }
-  // }
   const [robots, setRobots] = useState([]);
   const [searchField, setSearchField] = useState("");
 
@@ -34,8 +27,6 @@ function App() {
     setSearchField(event.target.value);
   }
 
-  //necessary method in React
-  // render() {
   //filters array to find end user search
   const filteredRobots = robots.filter(robot => {
     return robot.name.toLowerCase().includes(searchField.toLowerCase())
